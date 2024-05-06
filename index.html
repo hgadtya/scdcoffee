@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scdcoffeeroastery - beranda</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./etc/logo.png">
+</head>
+<style>
+    #mobile a {
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    #close {
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    #close:hover {
+        cursor: pointer;
+    }
+
+    #mobile #bar {
+        color: var(--secondary-color);
+    }
+
+    #bar:hover {
+        cursor: pointer;
+    }
+
+    #mobile i {
+        color: var(--secondary-color);
+    }
+
+    .icon a {
+        font-size: 16px;
+    }
+</style>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="etc/logo.png" alt="logo" class="logo" height="55px" width="57px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#product1">Produk</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <a id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4 class="icon">— Bandung Barat —</h4>
+        <!-- <h4>Trade-in-out</h4> -->
+        <h2 style="text-align: center;">Standard Coffee Deden</h2>
+        <h1 style="text-align: center;">Coffee & Roastery !.</h1>
+        <p style="text-align: center;">kopi arabika & kopi robusta ala nusantara !</p>
+        <button style="align-items: center;text-align: center ;"><a href="#product1">Beli Sekarang</a></button>
+    </section>
+    
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="features/f1.png" alt="">
+            <h6>pemesanan online</h6>
+        </div>
+        <div class="fe-box">
+            <img src="features/f2.png" alt="">
+            <h6>pengiriman cepat</h6>
+        </div>
+        <div class="fe-box">
+            <img src="features/f3.png" alt="">
+            <h6>harga merakyat</h6>
+        </div>
+        <div class="fe-box">
+            <img src="features/f4.png" alt="">
+            <h6>bayar di tempat</h6>
+        </div>
+        <div class="fe-box">
+            <img src="features/f5.png" alt="">
+            <h6>pelayanan ramah</h6>
+        </div>
+        <div class="fe-box">
+            <img src="features/f6.png" alt="">
+            <h6>layanan 24jam</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2 id="produk-kami">produk rekomendasi</h2>
+        <p>produk rekomendasi dari scdcoffeeroastery.</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="./etc/latte.png" alt="">
+                <div class="des">
+                    <!-- <span>robusta</span> -->
+                    <h5>Kopi Latte</h5>
+                    <!-- <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div> -->
+                    <h4>Rp 12.000</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct2.html';">
+                <img src="./etc/aren.png" alt="">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Es Kopi Susu Gula Aren</h5>
+                    <!-- <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div> -->
+                    <h4>Rp 15.000</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct3.html';">
+                <img src="./etc/coldbrew.png" alt="">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Cold Brew</h5>
+                    <!-- <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                    <h4>Rp 12.500</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="text-align: center;">tentang kami</h1>
+    <p style="text-align: center;">tentang bagaimana kami berkembang.</p>
+    <div class="about-us" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin-top: 80px;">
+        <img src="./etc/logo.png" alt="logo" height="65px" width="67px">
+        <h3 style="margin-top: 15px; color: var(--primary-color);">Standard Coffee Deden</h3>
+        <h3 class="h-third" style="margin-top: 5px; color: var(--secondary-color);">— <span style="color: var(--secondary-color);"></span>Coffee & Roastery —</h3>
+    </div>
+    <div class="about-us-story">
+        <p><b>Standard Coffee Deden</b> adalah suatu usaha yang bergerak di bidang industri kopi <i>Nusantara.</i> <b>Standard Coffee Deden</b> hadir dengan upaya memajukan industri kopi <i>Indonesia</i>.</p>
+    </div>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Daftar untuk pemberitahuan</h4>
+            <p>dapatkan info produk terbaru dari toko kami dan <span>promo spesial.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="alamat email anda" required style="width: 350px;">
+            <button class="normal" type="submit" onclick="maintenance()">Daftar</button>
+        </div>
+    </section>
+
+    <footer class="section-p1" id="kontak">
+        <div class="col">
+            <img class="logo" src="etc/logo.png" alt="" height="55px" width="57px">
+            <h4>Kontak</h4>
+            <p><strong>Alamat : </strong> Cikubang, Nyalindung, Bandung Barat </p>
+            <p><strong>Telepon : </strong>ID (+62) 822 - 1113 - 2144</p>
+            <p><strong>Jam Operasional : </strong>( Pre Order System )</p>
+            <div class="follow">
+                <h4>Ikuti Kami</h4>
+                <div class="icon">
+                    <a href="https://instagram.com/scdcoffeeroastery"><i class="fab fa-instagram"></i> @scdcoffeeroastery</a>
+                    <br>
+                    <a href="https://wa.me/6282211132144"><i class="fab fa-whatsapp"></i> +62 82211132144</a>
+                    <!-- <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="https://github.com/fnticxdesign"><i class="fab fa-github"></i></a> -->
+                    <!-- <a href="https://youtube.com/@vegaxkc8453?si=eg5BxHot99zND7Gy"><i class="fab fa-youtube"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Tentang</h4>
+            <a href="#">tentang kami</a>
+            <a href="#">informasi pengiriman</a>
+            <a href="#">privasi polisi</a>
+            <a href="#">ketentuan & kondisi</a>
+            <a href="#">hubungi kami</a>
+        </div>
+
+        <div class="col">
+            <h4>Akun Saya</h4>
+            <a href="#">masuk</a>
+            <a href="#">lihat keranjang</a>
+            <a href="#">wishlist saya</a>
+            <a href="#">lacak orderan saya</a>
+            <a href="#">bantuan</a>
+        </div>
+
+        <div class="col install">
+            <h4>Payments</h4>
+            <p>Platform Pembayaran Aman & Terpercaya</p>
+            <img src="pay/pay.png" alt="pay" style="height: 34px; width: 244px;">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, scdcoffeeroastery - powered by hgadtya_ <p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
